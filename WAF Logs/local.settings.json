@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "WAFLogsStorage": "<CONNECTION STRING>",
+    "fqdn": "<DATALAKE NAME>.azuredatalakestore.net",
+    "tenantid": "<TENANT ID>",
+    "clientsecret": "<CLIENT SECRET>",
+    "applicationid": "<CLIENT ID>"
+  }
+}
