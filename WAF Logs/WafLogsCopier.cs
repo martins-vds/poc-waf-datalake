@@ -62,7 +62,7 @@ namespace WAF_Logs
             Stream inboundBlob,
             string blobName,
             string blobExtension,
-            [Blob("insights-logs-webapplicationfirewalllogs-uncompressed/{blobName}.json", FileAccess.Write, Connection = "WAFLogsStorage")]
+            [Blob("insights-logs-webapplicationfirewalllogs-uncompressed/logs/{blobName}.json", FileAccess.Write, Connection = "WAFLogsStorage")]
             Stream outboundBlob,
             ILogger log)
         {
